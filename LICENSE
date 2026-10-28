@@ -1,0 +1,29 @@
+npmleak-ci — Proprietary Source-Available License
+
+Copyright (c) 2026 Unlimited Chaos
+
+Permission is granted to view, fork, audit, and run the free tier of this software (the
+top-level-.env-inclusion check) for any purpose, including in a build pipeline or
+continuous-integration job.
+
+The Pro tier (full computed package-contents walk: total size, largest included files, and
+secret-path detection for .env files, key material, and SSH private keys) requires a valid,
+separately-purchased Pro license key, checked offline by the software itself.
+
+You MAY:
+  - Read, fork, and modify this source for your own private evaluation.
+  - Run the free tier for any purpose, commercial or otherwise.
+  - Redistribute unmodified copies of this repository, including this license.
+
+You MAY NOT:
+  - Remove or defeat the Pro license-key check.
+  - Redistribute a modified copy that bypasses, patches around, or disables the Pro check.
+  - Resell or relicense this software as your own.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+Refunds: if Pro doesn't work for you, contact support within 14 days of purchase (address on
+your purchase receipt) for a full refund, no questions asked.

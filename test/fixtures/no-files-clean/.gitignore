@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.pem
+*.key
+*.pfx
+*.p12
+.aws/
+.ssh/

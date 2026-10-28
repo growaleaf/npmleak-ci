@@ -1,0 +1,34 @@
+{
+  "name": "npmleak-ci",
+  "version": "1.0.0",
+  "description": "Simulate what `npm pack`/`npm publish` actually ships, and flag a .env file, key material, or an SSH private key your files/.npmignore/.gitignore config fails to exclude.",
+  "license": "SEE LICENSE IN LICENSE",
+  "bin": {
+    "npmleak-ci": "./cli.js"
+  },
+  "main": "cli.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/growaleaf/npmleak-ci.git"
+  },
+  "keywords": [
+    "npm",
+    "npm-publish",
+    "secrets",
+    "security",
+    "ci",
+    "continuous-integration",
+    "supply-chain"
+  ],
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
